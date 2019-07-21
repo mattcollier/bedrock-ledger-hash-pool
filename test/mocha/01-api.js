@@ -5,7 +5,6 @@
 
 const bedrock = require('bedrock');
 const {config: {constants}, util: {uuid}} = bedrock;
-const brLedgerNode = require('bedrock-ledger-node');
 const brHashPool = require('bedrock-ledger-hash-pool');
 const cpuCount = require('os').cpus().length;
 
