@@ -1,0 +1,21 @@
+{
+  "name": "bedrock-ledger-hash-pool-test",
+  "version": "0.0.1-0",
+  "private": true,
+  "scripts": {
+    "test": "node --preserve-symlinks test test"
+  },
+  "dependencies": {
+    "bedrock": "^1.15.0",
+    "bedrock-injector": "^1.0.0",
+    "bedrock-jobs": "^3.0.0",
+    "bedrock-ledger-context": "^12.0.0",
+    "bedrock-ledger-hash-pool": "file:..",
+    "bedrock-ledger-node": "^8.0.1",
+    "bedrock-ledger-storage-mongodb": "^2.4.0",
+    "bedrock-mongodb": "github:digitalbazaar/bedrock-mongodb#6.x",
+    "bedrock-permission": "^2.5.3",
+    "bedrock-test": "digitalbazaar/bedrock-test#3.x",
+    "bedrock-validation": "^4.1.0"
+  }
+}
